@@ -1,0 +1,14 @@
+# 🪄 Magic Recon - Automation Framework
+> **Comprehensive shell-based framework for automated reconnaissance and data aggregation.**
+
+### 📥 Deployment Process
+```bash
+# Clone the repository and initialize the installation script
+git clone [https://github.com/joseph-reid/magic-recon.git](https://github.com/joseph-reid/magic-recon.git)
+cd magic-recon
+chmod +x install.sh
+sudo ./install.sh
+
+Bash
+# Initiate an automated recon workflow for a specific domain
+./magicrecon.sh -d target.com
