@@ -1,0 +1,7 @@
+# 💣 Metasploit Framework
+> **Industry-leading exploitation framework for vulnerability validation and Red Team operations.**
+
+### 📥 Professional Installation (Linux)
+```bash
+# Fetch and execute the official Metasploit installer
+curl [https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfinstall](https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfinstall) > msfinstall && chmod 755 msfinstall && ./msfinstall
