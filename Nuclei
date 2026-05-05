@@ -1,0 +1,17 @@
+# 🧬 Nuclei - Vulnerability Scanner
+> **Fast and customizable vulnerability scanner based on simple YAML DSL.**
+
+### 📥 Optimized Installation
+
+**Option 1: Using Go (Standard Deployment)**
+```bash
+go install -v [github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest](https://github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest)
+
+Option 2: Direct Binary Execution (Linux)
+wget [https://github.com/projectdiscovery/nuclei/releases/latest/download/nuclei_linux_amd64.zip](https://github.com/projectdiscovery/nuclei/releases/latest/download/nuclei_linux_amd64.zip) && unzip nuclei_linux_amd64.zip && sudo mv nuclei /usr/local/bin/
+
+
+
+🛠️ Execution Example
+# Automated scanning against a target
+nuclei -u [https://example.com](https://example.com)
